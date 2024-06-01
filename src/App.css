@@ -1,0 +1,123 @@
+.background-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.backGround {
+  background-color: #fff;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-block: 25px;
+}
+
+.btn {
+  transition: all 0.5s ease-in-out;
+  font-size: 1rem;
+  font-weight: 400;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border-radius: 10px;
+}
+
+.submit {
+  height: 10%;
+  width: 30%;
+  padding-block: 3%;
+  background-color: #999;
+  border: 2px solid #000;
+  color: #000;
+  font-size: 1rem;
+  font-weight: 500;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.submit:hover {
+  color: white;
+  background-color: black;
+  border: 2px solid #333;
+}
+
+.delete-btn {
+  background-color: transparent;
+  border: none;
+}
+
+.rename-btn {
+  color: yellow;
+  border: none;
+  background-color: transparent;
+}
+
+.todos-container {
+  border-radius: 10px;
+  width: 35%;
+  height: 100%;
+  padding: 2%;
+  background-color: #999;
+}
+
+.main-title {
+  color: #fff;
+}
+
+.add-todo-form {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+  width: 100%;
+  padding-block: 3%;
+}
+
+.new-todo-input {
+  color: #999;
+  background-color: #222;
+  width: 75%;
+  height: 100%;
+  padding-block: 3%;
+  padding-inline: 3%;
+  margin-left: 2%;
+  margin-top: 2%;
+  font-size: 1rem;
+  font-weight: 700;
+  font-family: sans-serif;
+  border: none;
+  border-radius: 5px;
+}
+
+.new-todo-input::placeholder {
+  color: #ddd;
+}
+
+.label {
+  color: white;
+  font-weight: 500;
+  font-size: 1.4rem;
+}
+
+.small-label {
+  font-weight: 500;
+  font-size: 0.7rem;
+}
+
+.todo-container-input-name {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  width: 75%;
+}
+
+.todo-container-checkBox {
+  width: 10%;
+  height: 30%;
+  accent-color: rgb(96, 255, 96);
+}
+
+.delete-all-done-btn {
+  padding: 5px;
+}
